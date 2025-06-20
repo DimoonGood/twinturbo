@@ -1,0 +1,38 @@
+.expert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.expert__icon {
+    width: 60px;
+    height: 60px;
+    background-image: url('/assets/logo2.avif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.expert__title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.expert__form-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.expert__form-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.expert__checkbox {
+    font-size: 16px;
+}

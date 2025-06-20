@@ -1,0 +1,51 @@
+ .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 77px;
+    height: 100%;
+}
+
+.info__icon {
+    width: 100px;
+    height: 100px;
+    background-image: url('/assets/logo.png');
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.info__title {
+    width: 530px;
+    text-align: center;
+    display: inline-block;
+    font-size: 34px;
+    margin-top: 20px;
+    border: 6px solid red;
+}
+
+.info__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border: 6px solid red;
+}
+
+.info__input {
+    display: block;
+    padding: 10px 14px;
+    font-size: 16px;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.info__input_long {
+  width: 520px;
+}
+
+.info__input_short {
+  width: 320px;
+}
